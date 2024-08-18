@@ -162,3 +162,5 @@ sys.path.insert(0, BASE_DIR)
 AUTH_USER_MODEL = 'auth.User'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+ALLOWED_HOSTS = ['localhost', '.vercel.app']
